@@ -49,7 +49,7 @@ function App() {
       </p>
       <br />
       <h2>The date according to Go is:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
+      <p style={{ color: "#f99595" }}>{date ? date : 'Loading date...'}</p>
     </main>
   );
 }
